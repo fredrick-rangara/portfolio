@@ -1,0 +1,1 @@
+This project represents a simple and one page Personal portfolio
