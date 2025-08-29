@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="intro">
+            <img src="images/WhatsApp Image 2025-08-27 at 11.41.20.jpeg" alt="Your Name">
+            <h1>Fredrick Rangara</h1>
+            <p>A passionate programmer and problem-solver.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am an aspiring Software Developer currently pursuing 
+           full stack software development after successfully 
+           graduating from KCA university. The reason for doing this
+           is to become a great software developer who can be able to
+           offer software solutions.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill-group">
+            <h3>Technical Skills</h3>
+            <ul>
+                <li><strong>Languages:</strong> HTML, CSS, JavaScript, Python</li>
+                <li><strong>Frameworks:</strong> React, Node.js</li>
+                <li><strong>Tools:</strong> Git, VS Code </li>
+            </ul>
+        </div>
+        <div class="skill-group">
+            <h3>Non-Technical Skills</h3>
+            <ul>
+                <li>Problem-Solving</li>
+                <li>Communication</li>
+                <li>Team Collaboration</li>
+                <li>Adaptability</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <img src="images/Project 1.png" alt="Project 1">
+            <h3>Project 1: Restaurant Menu</h3>
+            <p><strong>Languages:</strong> [HTML, CSS]</p>
+            <p>This is a simple Restaurant menu. With the help of
+               CSS and HTML, I was able to create the structure
+               and style it by adding hover effect, displaying 
+               special menu items and fulfilling all the requirements
+               required in regards to the issued challenge
+            </p>
+        </div>
+        <div class="project">
+            <img src="images/Project 2.png" alt="Project 2">
+            <h3>Project 2: Focus Quest </h3>
+            <p><strong>Languages:</strong> [Javascript, CSS, HTML]</p>
+            <p>Focus Quest is a fun, gamified Pomodoro timer that helps you 
+               stay productive by rewarding your focus sessions with experience 
+               points and character levels. Complete Pomodoro sessions, 
+               level up your hero, and become the ultimate focus warrior!</p>
+        </div>
+        </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+</body>
+</html>
